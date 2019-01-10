@@ -1,0 +1,145 @@
+.modal-header{
+ 
+height: 65px;
+background: #0a1162;
+
+}
+.modal-dialog{
+    max-width: 428px;
+    margin-top: 150px;
+    img{
+        width: 140px;
+        margin: auto;
+    }
+    h2{
+        font-size: 32px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center
+    }
+    h3{
+        font-size: 20px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center
+    }
+    .modal-body {
+        background: #6076A0;
+    }
+    .password{
+        position: relative;
+        a{
+            position: absolute; right: 0; top: 3px; color: #fff
+        }
+    }
+    input[type=text],input[type=password],select{
+        width: 100%;
+        display: block;
+        background: none;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: 200;
+        color: #fff;
+        margin:20px 0;
+        &:focus{
+            outline: 0
+        }
+       
+    }
+    .code{
+        border: 1px solid #fff;
+        color: #fff;
+        text-align: center;
+        word-spacing: 10px;
+        padding: 6px 0;
+        margin: 23px 0 0;
+    }
+
+input[type=checkbox]{
+    width:auto
+}
+::placeholder{
+    color: #fff
+}
+.form-check-label {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0 0 10px;
+}
+button{
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin: 0 0 10px;
+    &:hover{
+        background: #0a1162; color: #fff
+    }
+}
+p{
+    color: #ffff; font-size: 14px; font-weight: 300; text-align: center;
+    a{
+        color: #fff; text-decoration: underline;
+    }
+}
+.modal-content{ border: 0}
+}
+.modal {z-index: 999999999;
+    background: rgba(0, 0, 0, 0.4);}
+
+
+
+    #myModala {
+        .modal-dialog{
+            max-width: 80%;
+            margin-top: 111px;
+        }
+        .logo{
+            float: left;
+            margin: 0;
+        }
+        .spanheading{
+            font-size: 32px; color: #fff;
+            text-align: center;
+            display: inline-block;
+            line-height: 10px;
+        }
+        .headRight{
+            img{
+                width: auto;
+                margin-left: 15px
+            }
+        }
+        .code{border:0;
+        border-bottom: 1px solid #fff;
+        width: 50%; 
+        }
+        .codeans{
+            border: 1px solid #ededed;
+    color: #fff;
+    text-align: center;
+    padding: 17px 0;
+    flex: 0 0 48%;
+    margin-left: 8px;
+    letter-spacing: 10px;
+        }
+        p,span{
+            text-align: left;
+            font-size: 13px; font-weight: 300;
+            margin: 10px 0;
+            color: #fff
+        }
+        .greencontainer{
+            background: #0A1162;
+            padding: 20px 10px;
+        }
+        button:hover{background: #ededed; color: #000}
+        @media only screen and (max-width: 768px) {
+            .code, .codeans{flex: 0 0 100%;; margin: 10px 0}
+        }
+    }

@@ -1,0 +1,176 @@
+.marNav{
+    margin: 5px 0
+}
+.tbheading h3{ 
+height: 63px;
+background: #0a1162;
+color: #fff;
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+padding: 18px 0 0;
+margin: 0
+
+}
+.nav-tabs{
+    margin: 0;padding: 0;
+    li{
+        float: none;
+        width: 100%;
+        a{
+            text-align: left;
+            background:#4D5F83;
+            color: #fff;
+            display: block;
+            padding: 12px;
+            border-top: 1px solid #94A8CE;
+            font-size: 13px;
+            &:hover{
+                background: #6076A0;
+                text-decoration: none
+            }
+            img{
+                margin: 0 11px 0 0px;
+                width: 17px;
+            }
+            .mobi{
+                width: 10px!important;
+    margin-right: 18px;
+            }
+        }
+        .active{
+            background: #6076A0
+        }
+    }
+   
+} .tab-content>.active {
+        display: block;
+        opacity: 1;
+    }
+    .tab-content{
+        h3{
+height: 35px;
+background: #0a1162;
+color: #fff; font-size: 14px; padding: 10px
+
+        }
+        img{
+            max-width: 100%;
+        }
+        h5{
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+text-align: left;
+color: #0a1162;
+
+        }
+        button{
+            padding: 8px 22px;
+            border: 0;
+            background: #0e0d66;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 13px;
+            margin: 0 3px;
+            cursor: pointer;
+            font-weight: 200;
+            border:2px solid #0e0d66;
+        }
+        .moreInfoButton{
+            background: none;
+            color: #0e0d66;
+        }
+        .blackDi{
+            height: 188px;
+            font-size: 13px;
+            padding-right:10px
+        }
+        .listing{
+            border-bottom: 1px solid #0e0d66;
+            padding: 10px 0;
+            img{margin-left:10px}
+           
+        }
+        .whitecon{
+            background:#fff
+        }
+    }
+    .contentmain{
+        padding: 10px;
+        h6{
+font-weight: bold;
+font-size: 16px;
+line-height: 19.2px;
+text-align: left;
+color: #0a1162;
+margin: 10px 0
+
+        }
+        p{
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+color: #0a1162;
+
+        }
+        i{
+font-weight: normal;
+font-style: italic;
+text-decoration: underline;
+font-size: 14px;
+line-height: 18px;
+text-align: left;
+color: #9fa7ff;
+
+        }
+        .mintab{
+            width: 300px;
+height: 40px;
+background: #ebebeb;
+font-weight: bold;
+font-size: 16px;
+line-height: 19.2px;
+text-align: left;
+color: #0a1162;
+display: inline-block;
+margin-right:10px;
+padding: 10px;
+text-align: center
+
+
+        }
+    }
+
+    label{
+        background: #4D5F83;
+        height: 33px;
+        color: #fff;
+        display: block;
+        margin:0;
+        text-align:center;
+        width: 100%;
+        padding: 5px 0 0;
+        border: 1px solid #94A8CE;
+    }
+    table{
+        width:100%;
+        
+        th,td{
+            background: #0A1162;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            border: 1px solid #94A8CE;
+            padding: 10px
+        }
+        td{
+            background: #6076A0;
+            padding: 15px
+        }
+    }
+    .whitecontw p,.whitecontw li{
+        color: #0A1162;
+        font-size: 13px
+    }

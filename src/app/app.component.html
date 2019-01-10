@@ -1,21 +1,202 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<header>
+  <div class="container">
+    <a routerLink="/home" class="logo"><img src="../assets/img/logo.png" /></a>
+    <div class="rightInfo">
+      <a href="#" class="bell"><img src="../assets/img/bell.png" /><span>10</span></a>
+      <a href="#" class="mail"><img src="../assets/img/mail.png" /><span>10</span></a>
+      <a href="#" data-toggle="modal" data-target="#myModal" class="btn_login">LOG IN</a>
+      <a href="#" data-toggle="modal" data-target="#myModala" class="btn_join">JOIN NOW</a>
+    </div>
+  </div>
+  <nav>
+    <div class="container">
+      <ul class="navigaiton {{navigaitonToggel}}">
+        <li><a href="#" class="homeIcon"><img src="../assets/img//home.png" /></a></li>
+        <li><a href="#" class="mob"><img src="../assets/img//mobile.png" /></a></li>
+        <li><a href="#" class="fish"><img src="../assets/img//fish.png" /></a></li>
+        <li><a routerLink="/msports">m.SPORTS</a></li>
+        <li><a routerLink="/sports">SPORTS</a></li>
+        <li><a routerLink="/live">LIVE CASINO</a></li>
+        <li><a routerLink="/casino">CASINO</a></li>
+        <li><a routerLink="/promotions">PROMOTIONS</a></li>
+        <li><a routerLink="/keno">KENO</a></li>
+        <li><a routerLink="boxing">BOXING</a></li>
+        <li><a routerLink="cock">COCK FIGHT</a></li>
+      </ul>
+      <span (click)="toggelNav()" class="humburger">&#9776; </span>
+    </div>
+  </nav>
+</header>
+<script>
+</script>
 <router-outlet></router-outlet>
+<footer>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12 col-lg-5 ">
+        <img class="logo" src="../assets/img/logo.png" />
+        <h5>ABOUT 55BETS</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue orci urna, in iaculis sapien lacinia
+          ut. Sed libero leo, consectetur a ante quis, consectetur ultrices metus. Praesent tristique diam mi, et
+          posuere lacus tempus sed. Praesent fringilla efficitur neque, id volutpat lacus ultricies non. Donec auctor
+          sollicitudin leo non rutrum.</p>
+      </div>
+
+      <div class="col-md-12 col-lg-3 siteMap">
+        <h5>SITE MAP</h5>
+        <ul>
+          <li><a href="#">About M88</a></li>
+          <li><a href="#">Responsible Gaming</a></li>
+          <li><a href="#">Banking Options</a></li>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">VIP</a></li>
+          <li><a href="#">Rewards</a></li>
+          <li><a href="#">Affiliates</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-12 col-lg-4 social">
+        <h5>FOLLOW US ON SOCIAL MEDIA</h5>
+        <img src="../assets/img/logo-1.png" />
+        <img src="../assets/img/logo-2.png" />
+        <img src="../assets/img/logo-3.png" />
+        <img src="../assets/img/logo-4.png" />
+        <img src="../assets/img/logo-5.png" />
+        <img src="../assets/img/logo-6.png" />
+        <img src="../assets/img/logo-7.png" />
+        <img src="../assets/img/logo-8.png" />
+        <img src="../assets/img/logo-9.png" />
+        <img src="../assets/img/logo-10.png" />
+        <img src="../assets/img/logo-11.png" />
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="subfooter">Copyright © 2018 55bet . All rights reserved.</div>
+<!-- The Modal -->
+<div class="modal" id="myModala">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <img class="logo" src="../assets/img/logo.png" alt="logo" title="" />
+        <span class="spanheading">Join now</span>
+        <div class="pull-right headRight">
+          <img src="../assets/img/right-1.png" alt="logo" title="" />
+          <img src="../assets/img/right-2.png" alt="logo" title="" />
+          <img src="../assets/img/right-3.png" alt="logo" title="" />
+        </div>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p class="text-center">Please note that we do not permit members to own more than (1) account.</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <input type="text" placeholder="First Name *" />
+            <input type="text" placeholder="Last Name * " />
+            <input type="text" placeholder="Username *" />
+            <input type="password" placeholder="Password *" />
+            <input type="password" placeholder="Confirm Password *" />
+            <p>Tip: use at least 1 number and at least 7 characters.</p>
+          </div>
+          <div class="col-lg-6">
+            <input type="text" placeholder="E-mail *" />
+
+            <input type="text" placeholder="Date of Birth *	" />
+            <select>
+              <option>Preferred Currency * </option>
+              <option>inr </option>
+              <option>USD </option>
+            </select>
+            <input type="text" placeholder="Contact Number *" />
+            <div class="col-lg-12 captcha">
+              <div class="row">
+                <div class="col-lg-6 code"> Code</div>
+                <div class="col-lg-6 codeans">7 R 6 g</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="greencontainer row">
+
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="form-check">
+                <label class="form-check-label" for="check2">
+                  <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something"> I
+                  would
+                  like
+                  to receive details of special offers, free bets and other promotions.
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label" for="check5">
+                  <input type="checkbox" class="form-check-input" id="check5" name="option5" value="something"> *
+                  I am at
+                  least 18 years of age an I accept the <a href="#">Terms & Conditions.</a>
+                </label>
+              </div>
+              <button>RESISTER NOW</button>
+              <span class="text-center">By clicking Register Now!, I verify that I am of legal age and my activities on this website does
+                not
+                contravene with the laws of my own jurisdiction. I also accept all Terms & Conditions and Privacy
+                Policy
+                bound by this submission.</span>
+              <p class="text-center">Have an account? <a href="#">Log In here</a></p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <img src="../assets/img/logo.png" alt="logo" title="" />
+
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <h2>Log In</h2>
+        <h3>Welcome to 12Bets!!!</h3>
+        <form>
+          <input type="text" placeholder="Email or Username" />
+          <div class="password">
+            <input type="text" placeholder="Password" />
+            <a href="#">forgot</a>
+          </div>
+          <div class="row">
+            <div class="col-lg-6"> <input type="text" placeholder="Code" /></div>
+            <div class="col-lg-6">
+              <div class="code">7 R 6 g</div>
+            </div>
+          </div>
+          <label class="form-check-label col-lg-12" for="check3">
+            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+            Keep me logged in
+          </label>
+          <button>LOG IN</button>
+          <P>Don’t have an account? <a routerLink="/registration">Register here</a></P>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

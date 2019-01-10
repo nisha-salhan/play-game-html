@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-app';
+	title = 'my-app';
+	navigaitonToggel = "";
+
+	toggelNav() {
+		if(this.navigaitonToggel === 'navigaitonToggel') {
+			this.navigaitonToggel = "";
+		} else {
+			this.navigaitonToggel = "navigaitonToggel";
+		}
+	}
 }
